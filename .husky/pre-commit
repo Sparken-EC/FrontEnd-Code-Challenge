@@ -1,0 +1,4 @@
+bun lint-staged
+#bun api
+#bun component
+#bun e2e
