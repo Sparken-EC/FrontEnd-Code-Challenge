@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here’s the README translated into British English:
 
-## Getting Started
+# Sparken - Code Test
 
-First, run the development server:
+Welcome! This repository contains the technical test for developer candidates at Sparken. The test aims to evaluate your skills with **Next.js**, **Tailwind CSS**, and **Sass**. Below you will find the instructions and steps needed to set up and complete the test.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.js](https://nextjs.org) - A React framework for web applications.
+- [Tailwind CSS](https://tailwindcss.com) - A utility-first CSS framework for creating fast and customisable interfaces.
+- [Sass](https://sass-lang.com) - A CSS preprocessor for advanced style management.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Follow the steps below to set up the development environment:
 
-## Learn More
+1. **Fork** this repository to work on your own version.
+2. Clone your forked repository:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+   git@github.com:your-username/FrontEnd-Code-Challenge.git
+    ```
+3. Navigate to the project directory:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    cd your-repo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Install the necessary dependencies:
 
-## Deploy on Vercel
+    ```bash
+    bun install
+   ```
+   or
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Start the development server:
+
+    ```bash
+    bun dev
+   ```
+   or
+
+    ```bash
+    npm run dev
+   ```
+
+6. Open http://localhost:3000 in your browser to view the application.
+
+🚀 Challenge Requirements
+
+Your task is to create an application that meets the following criteria:
+
+1.	Responsive Design: Use Tailwind CSS to create a design that adapts to mobile, tablet, and desktop screens.
+2.	Modular Styles: Use Sass to handle more complex styles, employing variables, mixins, or functions as necessary.
+3.	Componentisation: Structure the application in a modular fashion with reusable React components.
+4.	Optimisation: The application should be fast and optimised for a good user experience.
+
+🧪 Testing
+
+The implementation of automated tests using the following is valued:
+
+- Cypress for end-to-end testing.
+- Jest for unit and integration testing.
+
+📋 Rules and Considerations
+
+- The code should be clean, well-structured, and follow best development practices.
+- Use Next.js for handling routing and pages.
+- Styles should primarily be managed with Tailwind CSS, while any advanced style customisation should be handled with Sass.
+- Avoid unnecessary additional libraries; the goal is to evaluate your mastery of the core technologies.
+
+🗓️ Submission
+
+Please make a fork of this repository and work on that fork. Once you have completed the test, kindly submit a pull request (PR) with your changes within a 48-hour timeframe.
+
+Good luck, and thank you for participating in the technical test for Sparken!
+
+📞 Support
+
+If you have any questions or need further information, please feel free to contact us at support@sparken.com or speak with the contact who interviewed you.
